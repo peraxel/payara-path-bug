@@ -1,14 +1,14 @@
-package com.teliacarrier.payarapathbug;
+package se.felth.payarapathbug;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.OPTIONS;
 import javax.ws.rs.Path;
 import javax.ws.rs.PathParam;
 
-@Path("test2")
-public class Test2Resource {
+@Path("test1")
+public class Test1Resource {
     @GET
-    @Path("{id: \\w+}")
+    @Path("{id}")
     public String get2(@PathParam("id") String id) {
         return "hello world " + id;
     }

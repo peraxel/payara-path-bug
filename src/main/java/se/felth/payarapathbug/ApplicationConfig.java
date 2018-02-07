@@ -1,4 +1,4 @@
-package com.teliacarrier.payarapathbug;
+package se.felth.payarapathbug;
 
 import javax.ws.rs.ApplicationPath;
 import javax.ws.rs.core.Application;
